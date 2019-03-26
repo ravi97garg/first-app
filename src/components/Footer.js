@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import './Footer.css';
 
-export default class Footer extends Component{
-    render(){
-        return (
+class Footer extends Component{
+    render() {
+        return(
             <footer>
-                Footer
+                All Rights Reserved &copy; Ravi Garg
             </footer>
         )
     }
 }
+
+export default Footer;

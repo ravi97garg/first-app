@@ -1,5 +1,21 @@
 .main{
     background-color: #fff7b2;
-    padding: 40px 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
+    padding: 40px;
+}
+
+
+.counter-btn{
+    padding: 6px 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color: #210000;
+    color: #fff7b2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
 }

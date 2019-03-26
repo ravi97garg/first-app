@@ -9,12 +9,11 @@ import Aside from './components/Aside';
 class App extends Component {
   constructor(props){
     super(props);
-    console.log("props: ",props);
     this.state = {
         abc:1,
       counter: 0
     }
-    // this.getCode = this.getCode.bind(this) //use only if declaring getCode without arrow func. ES5 
+    // this.getCodestyle={{margin: '0',}} = this.getCode.bind(this) //use only if declaring getCode without arrow func. ES5
   }
   // getCode(value){
   //   console.log("Value received from child 'Header'",value);
@@ -39,10 +38,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" style={{margin: '0',}}>
-        <Header counter = {this.state.counter}></Header>
-        <Main increaseCounter = {this.increaseCounter}></Main>
-        <Aside></Aside>
+      <div className="App">
+        <Header counter = {this.state.counter}/>
+        <div className='content'>
+            <Main increaseCounter = {this.increaseCounter}/>
+            <Aside></Aside>
+        </div>
         <Footer></Footer>
       </div>
     );

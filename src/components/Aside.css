@@ -1,4 +1,5 @@
-/* aside {
-    display: inline-block;
-    width: 25%;
-} */
+aside{
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+}

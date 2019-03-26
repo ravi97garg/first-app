@@ -1,24 +1,13 @@
-.App {
-  text-align: center;
-  width: 100%;
-}
-
-.main{
-  background-image: url('logo.svg');
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
-
 Aside {
-  width: 25%;
+  width: 30%;
   display: inline-block;
 }
 
 Main {
   width: 70%;
   display: inline-block;
-  box-sizing: border-box
 }
-.main{
-  box-sizing: border-box;
+
+.content{
+  display: flex;
 }
